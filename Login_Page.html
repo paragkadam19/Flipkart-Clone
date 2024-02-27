@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link href="/Flipcart/External_login.css" rel="stylesheet">
+    <script src="/JQuery/jquery-3.7.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#btn2").click(function(){
+                $(".mainDiv").remove();
+            })
+        })
+    </script>
+</head>
+<body>
+    <div class="mainDiv">
+        
+        <div class="outerdiv">
+            <div class="innerDiv1">
+                <h1>Login</h1>
+                <p>Get access to your<br>
+                    Orders, wishlist and<br>
+                    Recommendation</p>
+                <img src="/Images/flipcart_login_page.png">
+            </div>
+            <div class="innerDiv2">
+                <form>
+                    <input type="text" id="Usernameinput" name="Username" placeholder="User Name">
+                    <input type="text" id="Passwordinput" name="Password" placeholder="Password">
+                    <p id="para2">By continuing you agree to Flipcart's <a href="#">Terms of Use</a> and<a href="#"> Privacy<br>policy</a></p>
+                    <button type="submit" id="btn1">Log In</button>
+                </form>
+                <p id="para3"><b><a href="/Flipcart/SignUp_Page.html">New to Flipkart? Create an account</a></b></p> 
+                
+            </div>
+            <div>
+                <button id="btn2" onclick="Close()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-x-lg" viewBox="0 0 16 16">
+                    <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>

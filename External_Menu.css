@@ -1,0 +1,52 @@
+.mainDiv
+{
+    width: 1250px;
+    height: 450px;
+    background-color: white;
+    margin-left: 150px;
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid gray;
+    box-shadow: 1px 1px 1px gray;
+
+}
+.innerDiv1
+{
+    width: 250px;
+    height: 440px;
+    background-color: white;
+}
+.innerDiv2
+{
+    width: 210px;
+    height: 440px;
+    background-color: white;
+}
+.innerDiv3
+{
+    width: 230px;
+    height: 440px;
+    background-color: white;
+}
+.innerDiv4
+{
+    width: 200px;
+    height: 440px;
+    background-color: white;
+}
+.innerDiv5
+{
+    width: 200px;
+    height: 440px;
+    background-color: white;
+}
+.flexitem
+{
+    margin: 15px;
+}
+td
+{
+    padding-top: 5px;
+}

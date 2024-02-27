@@ -1,0 +1,148 @@
+header
+{
+    width: auto;
+    height: auto;
+    background-color: rgb(93, 125, 254);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.logo
+{
+    padding-left: 150px;
+}
+.search
+{
+    align-self: center;
+    padding-left: 40px; 
+}
+input
+{
+    width: 500px;
+    height: 40px;
+}
+.btn
+{
+    align-self: center;
+}
+.btn1
+{
+    width: 150px;
+    height: 40px;
+    border: white;
+    border-radius: 3px;
+}
+.SellerDiv
+{
+    align-self: center;
+    padding-left: 30px;
+}
+.Seller1
+{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+select
+{
+    background-color: rgb(93, 125, 254);
+    color: white;
+    border-color: rgb(93, 125, 254);
+}
+.itemDiv
+{
+    width: auto;
+    height: 130px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    padding-left: 130px;
+}
+.item
+{
+    width: 100px;
+    height: 120px;
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+}
+.item9
+{
+    width: 150px;
+}
+.img
+{
+    width: 100px;
+    height: 90px;
+}
+.img7
+{
+    width: 100px;
+    height: 60px;
+    margin-top: 30px;
+}
+.img8
+{
+    width: 100px;
+    padding-top: 10px;
+}
+.img9
+{
+    width: 130px;
+    padding-top: 1px;
+}
+.carouselDiv
+{
+    width: auto;
+    height: 300px;
+    background-color: aqua;
+}
+.img12
+{
+    height: 300px;
+}
+.productDiv
+{
+    width: auto;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    padding-left: 75px;
+}
+.product
+{
+    width: 200px;
+    height: 180px;
+    background-color: white;
+    margin: 15px;
+    align-self: center;
+    
+}
+.product5
+{
+    width: 230px;
+}
+h2
+{
+    text-align: center;
+}
+.btn2
+{
+    margin-left: 55px;
+    background-color: rgb(93, 125, 254);
+    border-radius: 5px;
+    border-color: rgb(93, 125, 254);
+}
+.productImg
+{
+    width: 200px;
+    height: 190px;
+}
+.img16
+{
+    width: 230px;
+}
+
+

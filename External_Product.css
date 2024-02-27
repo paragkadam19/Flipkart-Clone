@@ -1,0 +1,87 @@
+.mainDiv
+{
+    width: 1150px;
+    height: 680px;
+    background-color: white;
+    margin-left: 140px;
+}
+.outerDiv1
+{
+    width: 1150px;
+    height: 330px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid gray;
+    box-shadow: 2px 2px 2px gray;
+}
+
+.innerDiv1
+{
+    width: 180px;
+    height: 320px;
+    background-color: white;
+}
+.innerDiv2
+{
+    width: 780px;
+    height: 320px;
+    background-color: white;
+}
+.innerDiv3
+{
+    width: 480px;
+    height: 320px;
+    background-color: white;
+}
+.flexitem
+{
+    margin: 5px;
+}
+#img1
+{
+    width: 150px;
+    height: 150px;
+    padding-left: 10px;
+    padding-top: 30px;
+}
+#img2
+{
+    width: 50px;
+}
+td
+{
+    padding-top: 3px;
+}
+.list1
+{
+    text-align: justify;
+}
+#rating
+{
+    color: gray;
+}
+.Heading
+{
+    font-size: 20px;
+}
+.row
+{
+    padding-top: 25px;
+}
+#span1
+{
+    color: rgb(4, 172, 4);
+}
+#span2
+{
+    color: red;
+}
+.img3
+{
+  width: 70px;
+}
+.img5
+{
+    width: 70px;
+}
